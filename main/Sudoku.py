@@ -37,7 +37,7 @@ class Sudoku:
         self.seconds = 0
         self.minutes = 0
         self.minuteconverted = 0
-        self.TimerStop = False
+
 
     def run(self):
         while self.running:
@@ -68,8 +68,12 @@ class Sudoku:
                     if not self.TimerStarted:
                         self.TimerStarted = True
                         self.startTime = pygame.time.get_ticks()
-                    else:
-                        self.TimerStop = True
+
+                    elif self.TimerStarted:
+                        self.TimerStarted = False
+
+
+
 
                 if self.OverButton_Clear:
                     self.locked.clear()
@@ -98,9 +102,9 @@ class Sudoku:
         self.screen.fill(WHITE)
         if self.Ongrid:
             self.drawSelection(self.screen, self.Ongrid)
-        if self.TimerStarted and not self.TimerStop:
+        if self.TimerStarted:
             self.Timer()
-        if self.TimerStop:
+        else:
             self.drawTimer(self.screen)
         self.lockcells(self.screen, self.locked)
         self.drawNumbers(self.screen)
