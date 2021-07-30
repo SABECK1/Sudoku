@@ -1,6 +1,7 @@
 # **How to get Started**
 
 Just start Sudoku.py in the commandline with python Sudoku.py
+
 There you will be presented with a preset board from settings.py. 
 
 # **Instructions**
