@@ -3,8 +3,6 @@ NEEDED LIBRARIES:
 - PYGAME
 - TKINTER (normally included in Python itself)
 
-Otherwise just start the Program from the commandline as usual
-python Sudoku.py
- 
+
 
 
