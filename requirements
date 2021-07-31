@@ -1,7 +1,6 @@
 NEEDED LIBRARIES:
-- NUMPY
 - PYGAME
-- TKINTER (normally included in Python itself)
+
 
 
 
