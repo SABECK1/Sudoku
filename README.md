@@ -6,7 +6,7 @@ There you will be presented with a preset board from settings.py.
 
 # **Instructions**
 
-The program comes with an integrated solving algorithm and the ability to change said preset Board using the "Change"-Button.
+The program comes with an integrated solving algorithm and the ability to change said preset Board using the "Board"-Button.
 Be careful not to use an invalid board as the algorithm can only solve solveable boards obviously.
 
 The "Clear"-Button is used to reset the board to a **completely empty** board, which has to be changed accordingly to your needs.
